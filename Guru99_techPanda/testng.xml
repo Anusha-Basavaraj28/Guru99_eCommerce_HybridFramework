@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.techPanda.Utilities.ExtentReport"></listener>
+	</listeners>
+  <test thread-count="5" name="Guru99_TechPanda">
+	  
+    <classes>
+      
+      <class name="com.techPanda.TestCases.HomePageTestCase"/>
+      <class name="com.techPanda.TestCases.TestCase_002"></class>
+      <class name="com.techPanda.TestCases.TestCase_003"></class>
+      <class name="com.techPanda.TestCases.TestCase_004"></class>
+      <class name="com.techPanda.TestCases.TestCase_005"></class>
+      <class name="com.techPanda.TestCases.TestCase_006"></class>
+      <class name="com.techPanda.TestCases.TestCase_007"></class>
+      <class name="com.techPanda.TestCases.TestCase_008"></class>
+      <class name="com.techPanda.TestCases.TestCase_009"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
